@@ -1,8 +1,9 @@
 # Assigment3
-# Personal Account Management
+### The PersonalAccount class represents a simple bank account that allows deposits, withdrawals, and transaction tracking. It works alongside the Amount class, which stores individual transactions.
 
-This is a Python project that helps manage a personal bank account. It allows you to
-**deposit money, withdraw money, check your balance, and view your transaction history**.  
+### Each account has an account number, account holder, balance, and a list of transactions. Deposits and withdrawals update the balance and are recorded as Amount objects. The transaction history can be printed, and account details can be managed through getter and setter methods.
+
+### Special methods allow using + for deposits and - for withdrawals. The Amount class simply stores the transaction type (DEPOSIT/WITHDRAWAL) and amount, ensuring clear transaction tracking.  
 
 <img width="814" alt="Image" src="https://github.com/user-attachments/assets/c921ea34-9316-4cf5-ade9-9b0aeb9264cd" />
 
