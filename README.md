@@ -1,7 +1,7 @@
 # Assigment3
 
-1. **amount.py** – Defines the `Amount` class to represent transactions.  
-2. **personal_account.py** – Defines the `PersonalAccount` class to manage the account.  
+1. **amount1.py** – Defines the `Amount` class to represent transactions.  
+2. **personal_account1.py** – Defines the `PersonalAccount` class to manage the account.  
 ### The PersonalAccount class represents a simple bank account that allows deposits, withdrawals, and transaction tracking. It works alongside the Amount class, which stores individual transactions.
 
 ### Each account has an account number, account holder, balance, and a list of transactions. Deposits and withdrawals update the balance and are recorded as Amount objects. The transaction history can be printed, and account details can be managed through getter and setter methods.
